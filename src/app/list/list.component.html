@@ -1,0 +1,8 @@
+<div *ngFor="let course of courses ">
+  <app-item [course]=course></app-item>
+</div>
+
+<h1>Usuarios</h1>
+<div *ngFor="let user of users ">
+ <h2>{{user.id}} -- {{user.name}} -- {{user.age}}</h2>
+</div>
